@@ -1,0 +1,203 @@
+<?php 
+session_start();
+if(isset($_SESSION['email'])){
+
+}else{
+    header("Location: login.html");
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moh Oga</title>
+</head>
+<body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+    header{
+    margin: 0;
+    background-color: aquamarine;
+    padding: 30px 15px;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header ul{
+    float: right;
+    margin-right:30px ;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+header ul img{
+    width: 20px;
+}
+
+header ul li{
+    margin: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: 10px;
+    display: flex;
+}
+
+#logo img{
+    height: 25px;
+    width: 29px;
+}
+
+body{
+    text-align: center;
+    
+}
+
+#loginPage #signin{
+    background-color: rgb(251, 253, 253);
+    border: 2px solid aqua;
+    padding: 70px 30px;
+    width: 35%;
+    margin: auto;
+    margin-top: 160px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+#loginPage{
+    text-align: center;
+}
+
+#loginPage h1{
+        font-family: 'Comic Sans MS';
+}
+
+#user-stats td{
+    border: 1px solid black;
+    padding: 100px 160px;
+    cursor: pointer;
+}
+
+#user-stats{
+    margin: auto;
+    margin-top:40px;
+    border-spacing: 10px;
+}
+
+
+
+#user-stats td:hover{
+    background-color:antiquewhite;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 8px solid black;
+    border-bottom: 8px solid black;
+    transition: 0.3s;
+}
+
+#greet{
+    font-family: cursive; 
+}
+
+#summary{
+    height: 500px;
+    border: 1px solid rgb(25, 25, 25);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#summary:hover{
+        border: 2px solid black;
+        width: 85%;
+        transition: 0.3s;
+    }
+
+@media screen and (max-width:700px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #stats{
+        width: 100%; 
+        overflow:scroll;
+    }
+    #user-stats{
+        width: 95%;
+    }
+    #user-stats td{
+        height: 220px;
+        padding: 0 130px;
+    }
+    #stats td p{
+        font-weight: 700;
+    }
+    #user-stats td:hover{
+    background-color:antiquewhite;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    transition: 0.2s;
+    }
+    #summary{
+        width: 96%;
+        border-radius: 0;
+    }
+    
+#summary:hover{
+        border: 1px solid black;
+        width: 97%;
+        transistion: 0.1s;
+    }
+
+
+    
+}
+    </style>
+
+<header>
+        <div id="logo"><h2>Damisi's Store</h2> <img src="../img/logo.png" alt=""></div>
+        <ul>
+            <li><a href="./upload">Upload</a></li>
+        </ul>
+    </header>
+     
+    <h1 id="greet">Welcome Back Moh Oga</h1>
+
+    <div id="stats">
+    <table id="user-stats">
+        <td id="customers"><p>Total Customers</p></td>
+        <td><p>Daily Sales</p></td>
+        <td><p>Monthly Sales</p></td>
+    </table>
+</div>
+
+    <div id="summary">
+
+    </div>
+
+
+    <script>
+
+    </script>
+
+</body>
+</html>
