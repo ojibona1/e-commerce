@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,4 +103,110 @@ body{
 
      </div>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Get Started</title>
+
+</head>
+<body>
+    <style>
+    *{
+        margin: 0;
+        overflow: hidden;
+    }
+    header{
+    margin: 0;
+    background-color: aquamarine;
+    padding: 30px 15px;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header ul{
+    float: right;
+    margin-right:30px ;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+header ul img{
+    width: 20px;
+}
+
+header ul li{
+    margin: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: 10px;
+    display: flex;
+}
+
+#logo img{
+    height: 25px;
+    width: 29px;
+}
+
+body{
+    text-align: center;
+    
+}
+    #loginPage #signin{
+    background-color: rgb(251, 253, 253);
+    border: 2px solid aqua;
+    padding: 70px 30px;
+    width: 35%;
+    margin: auto;
+    margin-top: 160px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+        #loginPage{
+            text-align: center;
+        }
+
+        #loginPage h1{
+        font-family: 'Comic Sans MS';
+        }
+    </style>
+
+    <header>
+        <div id="logo"><h2>Damisi's Store</h2> <img src="../../img/logo.png" alt=""></div>
+    </header>
+    <div id="loginPage">
+    <h1>Hey Boss</h1>
+
+     <div id="signin">
+         <div class="formDet">
+        <p>Login</p> 
+        <img style="height: 19px;" src="./img/arrow-right-to-bracket-solid.svg" alt="">
+           <form id="formLogin" action="./verify.php" method="post">
+            <span style="display: inline-block;  margin-top:3px;"><img style="height: 19px;" src="./img/user-solid.svg" alt=""></span>
+            <input type="email" name="email" id="email" placeholder="email" required><br><br>
+            <span style="display: inline-block;  margin-top:3px;"><img style="height: 19px;" src="./img/lock-solid.svg" alt=""></span>
+            <input type="password" name="pass" id="pass" placeholder="password" required><br><br>
+
+            <button name ="submit" style="padding: 10px 25px; background-color:aqua; border:none;border-radius:4px;" type="submit">Login</button>
+           </form>
+        </div>
+     </div>
+
+
+
+     </div>
+</body>
+>>>>>>> 2744e11 (m)
 </html>

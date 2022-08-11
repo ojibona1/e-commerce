@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -493,4 +494,501 @@ header ul li a{
             margin-right:20px ;
             margin-top: 10px;
         }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
+header{
+    margin: 0;
+    background-color: aquamarine;
+    padding: 30px 15px;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header ul{
+    float: right;
+    margin-right:30px ;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+
+header ul img{
+    width: 20px;
+}
+
+header ul li{
+    margin: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: 10px;
+    display: flex;
+}
+
+#logo img{
+    height: 25px;
+    width: 29px;
+}
+
+#search-bar{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#search-bar input{
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    padding: 7px 0;
+    width: 100%;
+}
+
+
+
+.checked{
+    color: orange;
+}
+
+.notchecked{
+    color: lightgray;
+}
+
+#search-bar #sbar{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#search-bar #sbar input:focus{
+    outline: none;
+}
+
+#search-bar #sbar img{
+    margin: auto;
+    margin-right: 20px;
+    height: 15px;
+    width: 20px;
+}
+
+#search-bar button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#promo{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    padding: 20px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    overflow-x: scroll;
+}
+
+
+#p-phone{
+   display: flex;
+}
+
+#hotdeals h1{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    }
+
+#hotdeals img{
+    width: 20px;
+}
+#displayPhone{
+    display: flex;
+    margin: auto;
+    margin-top: 22px;
+    width: 85%;
+}
+
+#displayPhone img{
+    height: 550px;
+    width: 50%;
+    border-radius: 12px;
+}
+#p-content{
+    background-color: rgb(247, 247, 247);
+    padding: 10px 50px;
+    border-radius: 12px;
+    margin-left: 12px;
+}
+#p-content h2{
+    text-transform: uppercase;
+    margin: 12px 6px 45px 0;
+    
+}
+
+#p-content #status{
+    background-color: rgb(9, 246, 9);
+    text-align: center;
+    padding: 6px 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+    width: 20%;
+}
+
+#p-content #descript{
+    margin-top: 20px;
+    line-height: 22px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#rating{
+    margin-top: 10px;
+}
+
+#dealCard{
+    margin-top: 10px;
+    border: 1px solid red;
+    background-color: red;
+    height: 160px;
+    border-radius: 8px;
+}
+
+#dealTime{
+    background-color: red;
+    padding: 16px 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    display: flex;
+}
+
+#dealTime img{
+    margin: 0;
+    height: 20px;
+    width: 8%;
+}
+
+#dealTime .deals{
+    color: white;
+    display: inline;
+    width: 150px;
+}
+
+#dealTime .time{
+    margin-left: 70px;
+    width: 150px;
+    color: white;
+}
+
+#price-content{
+    float: left;
+    background-color: white;
+    width: 100%;
+    height: 108px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+#price-content #p-price{
+    letter-spacing: 3px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+#price-content #l-price{
+    letter-spacing: 3px;
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    margin-left: 20px;
+}
+
+#p-content #btns button{
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    padding: 10px 6px;
+    border-radius: 12px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 30px;
+}
+
+#p-content #btns button{
+    width: 55%;
+    position: relative;
+    left: 80px;
+    display: inline;
+}
+
+#addToCart{
+    cursor: pointer;
+}
+
+#loginPage{
+    margin-top: 30px;
+    display: flex;
+}
+
+#loginPage h1{
+    position: relative;
+    left: 690px;
+}
+
+#loginPage #signin{
+    background-color: rgb(251, 253, 253);
+    border: 2px solid aqua;
+    padding: 70px 30px;
+    width: 35%;
+    left: 15px;
+    margin-top: 160px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#loginPage #orCircle{
+    background-color: aquamarine;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    top: 500px;
+    left: 760px;
+    position: absolute;
+}
+
+#loginPage #signup{
+    background-color: rgb(251, 253, 253);
+    border: 2px solid aqua;
+    padding: 70px 30px;
+    height: 330px;
+    border-radius: 8px;
+    width: 35%;
+    left: 30px;
+    margin-top: 160px;
+    position: relative;
+    bottom: 30px;
+
+}
+
+#formLogin{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+#formLogin input{
+    padding: 8px 0;
+    width: 70%;
+    font-size: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+#signin img{
+    height: 28px;
+}
+
+.formDet{
+   margin: auto;
+}
+
+#signin p{
+    font-size: 29px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+#formSignup{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+#formSignup input{
+    padding: 8px 0;
+    width: 70%;
+    font-size: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#signup img{
+    height: 23px;
+}
+
+
+#signup p{
+    font-size: 29px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    #cases{
+        width: 110px;
+        margin-right: 3px;
+    }
+
+    #promo{
+        margin: 10px;
+        width: 88%;
+    }
+
+    #hotdeals h1{
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        text-decoration: underline;
+        }
+
+        #displayPhone{
+            width: 100%;
+            display: block;
+            margin: 0;
+        }
+
+        #displayPhone img{
+            width: 240px;
+            height: 240px;
+            text-align: center;
+            margin-left: 65px;
+        }
+
+        #p-content{
+            padding: 10px 15px;
+            font-size: 9px;
+            width: 90%;
+            margin: 0;
+        }
+
+        #dealCard{
+            height: 30%;
+        }
+
+        #price-content{
+            height: 70%;
+        }
+        #p-content #status{
+            margin: 10px 0 0 0;
+            padding: 6px 5px 6px 0;
+        }
+        #dealTime .time{
+            margin-left: 250px;
+            color: white;
+        }
+
+        #dealTime .time{
+            float: right;
+            width: 25%;
+            font-size: 16px;
+            margin-left: 0;
+            color: white;
+        }
+
+        #dealTime .deals{
+            color: white;
+            font-size: 16px;
+            display: inline-block;
+        }
+        #dealTime img{
+            height: 20px;
+            width: 8%;
+            margin-left: 10px;
+        }
+
+        #p-content #btns{
+            text-align: center;
+            margin-bottom: 6px;
+        }
+
+        #p-content #btns button{
+            position: relative;
+            bottom: 115px;
+          left: 0;
+        }
+
+        #p-content #btns button{
+            display: inline-block;
+            width: 41%;
+        }
+
+        header{
+            width: 100%;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        header ul{
+            float: right;
+            margin-right:20px ;
+            margin-top: 10px;
+        }
+>>>>>>> 2744e11 (m)
 }
